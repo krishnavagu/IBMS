@@ -1,0 +1,15 @@
+ git init
+  
+  474  touch f1 f2 f3
+  475  git add f1
+  476  git status
+  477  git add f2 f3
+  478  git status
+  479  git commit -m "This is first commit"
+  480  git remote add origin https://github.com/krishnavagu/IBMS.git
+  481  git push origin push master
+  482  git push -u origin master
+  
+  484  git log
+  
+  486  git log --oneline
